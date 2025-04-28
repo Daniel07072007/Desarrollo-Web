@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo</title>
     <link rel="stylesheet" href="../boostrap/css/bootstrap.min.css">
+    <style>
+        #menucul{
+            list-style: none;
+            text-decoration: none;
+            line-height: 50px;
+        }
+    </style>
 </head>
 <body>
     <h1>Ejercicio de filas y columnas con boostrap</h1>
@@ -12,8 +19,31 @@
 
     <div class="container">
         <div class="row">
-            <header class="col-12 bg-primary text-white p-6"></header>
-            <h1>Aprendiendo boostrap</h1>
+            <header class="col-12 bg-primary text-white p-6">
+                <h1>Aprendiendo boostrap</h1>
+            </header>
+            <nav id="menu" class="col-12 bg-secondary text-white p-6">
+                <ul class="row">
+                    <li class="col">Inicio</li>
+                    <li class="col">Productos</li>
+                    <li class="col">Servicios</li>
+                    <li class="col">Pedidos</li>
+                    <li class="col">Conocenos</li>
+                    <li class="col">Conocenos</li>
+                </ul>
+            </nav>
+            <section class="col-12">
+                <div class="col-9">
+                    <h2>Cajas</h2>
+                    <hr>
+                    <div class="row">
+                <div class="item col bg-primary m-2">Caja1</div>
+                <div class="item col bg-warning m-2">Caja2</div>
+                <div class="item col bg-danger m-2">Caja3</div>
+                </div>
+                
+            </section>
+            
         </div>
     </div>
     
